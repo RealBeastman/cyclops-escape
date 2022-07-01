@@ -52,7 +52,7 @@ def firstQuestion():
   run_hide = input("You see a cyclops walking towards you. Would you like to 'run' or 'hide'?\n")
 
   if run_hide.lower() == 'run':
-    print("The cyclops see you run away, and gives chase.\n")
+    print("The cyclops sees you run away, and gives chase.\n")
     secondQuestion()
   elif run_hide.lower() == 'hide':
     print("You chose to hide in a nearby tree line. The cyclops sees you and tears down the trees, killing you in the process. Game Over.\n")
